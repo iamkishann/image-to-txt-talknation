@@ -1,6 +1,6 @@
 {
-  "name": "license-plate-identifier",
-  "version": "0.1.0",
+  "name": "image-to-txt-talknation",
+  "version": "0.1.1",
   "description": "Takes license plate image converts to text and pulls details from database and gets current location.",
   "main": "src/main/index.js",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamkishann/license-plate-identifier.git"
+    "url": "git+https://github.com/iamkishann/image-to-txt-talknation.git"
   },
-  "author": "https://github.com/iamkishann/license-plate-identifier.git",
+  "author": "https://github.com/iamkishann/image-to-txt-talknation.git",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamkishann/license-plate-identifier/issues"
+    "url": "https://github.com/iamkishann/image-to-txt-talknation/issues"
   },
-  "homepage": "https://github.com/iamkishann/license-plate-identifier#readme",
+  "homepage": "https://github.com/iamkishann/image-to-txt-talknation#readme",
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
     "electron": "^3.0.4",
