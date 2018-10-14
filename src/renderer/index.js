@@ -57,6 +57,9 @@ class Test extends Component {
 
     imageToTextDecoder.getKeywordsForImage(file)
       .then(keywords => {
+        const msg = new SpeechSynthesisUtterance(keywords);
+        window.speechSynthesis.speak(msg);
+
         this.setState({
           file: fileURL,
           loading: false,
