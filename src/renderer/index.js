@@ -10,7 +10,7 @@ import browse from '../../resources/browse.png';
 import drop from '../../resources/drop.png';
 import loading from '../../resources/loading.png';
 
-const KEY = '6NtMETDTgmia8rWbyzWMJQ';
+const KEY = 'jSt3iT0osObMD7kU5Ous6g';
 
 class Test extends Component {
   constructor(props) {
