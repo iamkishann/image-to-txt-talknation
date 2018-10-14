@@ -5,7 +5,7 @@ import { format as formatUrl } from 'url';
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
 const darwinMenu = {
-  label: 'License Plate Identifier',
+  label: 'Image to Text Talknation, I.R.V.A',
   submenu: [
     { role: 'about' },
     { type: 'separator' },
@@ -97,7 +97,7 @@ ipcMain.on('post', (event, notification, data) => window.webContents.send(notifi
 
 function createMainWindow() {
   window = new BrowserWindow({
-    title: 'License Plate Identifier',
+    title: 'Image to Text Talknation, I.R.V.A',
     show: false,
   });
 
