@@ -12,7 +12,9 @@ A gui app drag and drop image or choose file from finder
 will process the image and output the text.
 
 ```bash
+git status all updated
 git clone https://github.com/iamkishann/image-to-txt-talknation
 npm install
 npm start
+limited image drops using api!
 ```
